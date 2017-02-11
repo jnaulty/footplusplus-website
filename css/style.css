@@ -62,7 +62,7 @@ p {
 
 
 .header {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(../images/walking_one.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +202,7 @@ p {
     
 }
 .performer {
-    background-image: url(../images/testimonial-bg.jpg);
+    background-image: url(../images/blk.jpeg);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
