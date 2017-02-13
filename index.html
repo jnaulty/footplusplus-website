@@ -83,19 +83,19 @@
                     <div class="col-md-4">
                        <div class="header-col">
                         
-                         <form role="form" class="header-form">
+                         <form role="form" class="header-form" action= "https://script.google.com/macros/s/AKfycbxJp1WIQWzf-YTN6zzXncURfVKeFB2ufX8i6iVWpNB1no9fEWI/exec" method="POST" id="gform">
                             <h2>Stay Updated</h2>
                              <div class="form-group">
-                                 <input type="text" placeholder="First Name" class="form-control input-3x">
+                                 <input id="name" name="name" type="text" placeholder="First Name" class="form-control input-3x">
                              </div>
                              <div class="form-group">
-                                 <input type="text" placeholder="Last Name" class="form-control input-3x">
+                                 <input type="text" name="message" placeholder="Last Name" class="form-control input-3x">
                              </div>
                              <div class="form-group">
-                                 <input type="text" placeholder="E- Mail Address" class="form-control input-3x">
+                                 <input type="text" name="email" placeholder="E- Mail Address" class="form-control input-3x">
                              </div>
                              <div class="form-group">
-                                 <button type="submit" class="btn btn-primary btn-3x">Send Data <span> <i class="fa fa-angle-double-right"></i> </span></button>
+                                 <button type="submit" class="btn btn-primary btn-3x">Sign Up <span> <i class="fa fa-angle-double-right"></i> </span></button>
                              </div>
                          </form>
                        </div>
@@ -154,7 +154,7 @@
        </section><!--end of about section-->
        <!--Performers Section-->
        <section class="performer-section" id="performers">
-           <div class="performer wow ">
+           <div class="performer wow">
             <div class="performer-overlay">
                       <div class="container">
                           <div class="row">
@@ -169,7 +169,8 @@
                            <div class="container">
                            <div class="row">
                             <div class="col-md-12">
-                            <div id="carousel-performer" class="carousel slide" data-ride="carousel">
+                            <div id="carousel-performer" class="carousel slide">
+                              <!-- data-ride="carousel" makes the carousel slide automatically-->
                                   <!-- Indicators -->
                                   <ol class="carousel-indicators">
                                     <li data-target="#carousel-performer" data-slide-to="0" class="active"></li>
@@ -184,13 +185,13 @@
                                       <img src="images/pier_headshot.jpg" alt="Client01">
                                       <div class="performer-caption">
                                         <h2>Pierluigi Mantovani <span class="job"> CEO </span></h2>
-                                        <p> Pierluigi received his B.A. in Cognitive Science at UC Berkeley. He has spent his time after school doing Neuroscience research at UCSF. He spends his free time building assistive and augmentative technology. Foot++ stems from his fathers battle with MS and footdrop, in which he found that an affordable FES device was nonexistant. He and the Foot++ aim to make assistive and augmentative technology affordable for everyone.</p>
+                                        <p> Pierluigi received his B.A. in Cognitive Science at UC Berkeley. He has spent his time after school doing Neuroscience research at UCSF, and spends his free time building assistive and augmentative technology. Foot++ stems from his fathers battle with MS and footdrop, in which he found that an affordable FES device was nonexistant. He and the Foot++ aim to make assistive and augmentative technology affordable for everyone.</p>
                                       </div>
                                     </div>
                                     <div class="item">
                                       <img src="images/pierre_headshot.jpg" alt="Client02">
                                       <div class="performer-caption">
-                                        <h2>Pierre Karashchuk<span class="job"> CSO </span></h2>
+                                        <h2>Pierre Karashchuk<span class="job"> Lead Software Engineer </span></h2>
                                         <p></p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid facere vero amet quaerat eos quia. Nulla veritatis reprehenderit molestiae aperiam, </p> -->
                                       </div>
@@ -214,7 +215,7 @@
                                     <div class="item">
                                       <img src="images/jnaulty_headshot.jpg" alt="Client03">
                                       <div class="performer-caption">
-                                        <h2>John Naulty Jr. <span class="job"> CTO</span></h2>
+                                        <h2>John Naulty Jr. <span class="job"> Lead Hardware Engineer </span></h2>
                                         <p></p>
                                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid facere vero amet quaerat eos quia. Nulla veritatis reprehenderit molestiae aperiam, </p> -->
                                       </div>
@@ -409,7 +410,9 @@
         <div class="sk-cube sk-cube9"></div>
        </div>
        </section>
-       
+       <div style="display:none;" id="thankyou_message">
+        <h2> Thank you! We will get back to you soon! </h2>
+      </div>
        
        
         <script src="js/jquery.js"></script>
@@ -419,6 +422,8 @@
         <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/jquery.nicescroll.min.js"></script>
         <script src="js/wow.min.js"></script>
+        <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
         <script>new WOW().init();</script>
     </body>
 </html>
