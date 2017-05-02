@@ -1,0 +1,13 @@
+#nav-space {
+    position: relative;
+}
+#nav-div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#set-up {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
