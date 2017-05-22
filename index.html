@@ -79,7 +79,7 @@
                     <div class="col-md-4">
                        <div class="header-col">
                         
-                         <form role="form" class="header-form" action= "https://script.google.com/macros/s/AKfycbxJp1WIQWzf-YTN6zzXncURfVKeFB2ufX8i6iVWpNB1no9fEWI/exec" method="POST" id="gform">
+                         <form role="form" class="header-form" action= "https://script.google.com/macros/s/AKfycbxJp1WIQWzf-YTN6zzXncURfVKeFB2ufX8i6iVWpNB1no9fEWI/exec" method="POST" id="gform" onsubmit="show()">
                             <h2>Pre-order a kit, or sign up for our mailing list.</h2>
                              <div class="form-group">
                                  <input id="name" name="name" type="text" placeholder="First Name" class="form-control input-3x">
@@ -94,6 +94,7 @@
                                  <button type="submit" class="btn btn-primary btn-3x">Sign Up <span> <i class="fa fa-angle-double-right"></i> </span></button>
                              </div>
                          </form>
+                         <h2 id="thank-you" style="visibility:hidden"> Thanks! You're signed up. </h2>
                        </div>
                         
                     </div>
@@ -414,4 +415,22 @@
   src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
         <script>new WOW().init();</script>
     </body>
+    <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99584563-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+function show() {
+  document.getElementById("thank-you").style.visibility="visible";
+  document.getElementById("thank-you").style.paddingTop="100px"
+}
+</script>
 </html>
+
