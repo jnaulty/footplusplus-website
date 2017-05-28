@@ -427,9 +427,28 @@
 
 </script>
 <script>
+function validateEmail(emailField){
+      var reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+      if (reg.test(emailField) == false) 
+      {
+          alert('Invalid Email Address');
+          return false;
+      }
+
+      return true;
+
+}
+
 function show() {
-  document.getElementById("thank-you").style.visibility="visible";
-  document.getElementById("thank-you").style.paddingTop="100px"
+
+  var email_valid = document.forms["gform"]["email"].value;
+  var result = validateEmail(email_valid);
+
+  if (document.forms["gform"]["name"].value != "" && document.forms["gform"]["message"].value != "" && document.forms["gform"]["email"].value != "" && (result == true)) {
+    document.getElementById("thank-you").style.visibility="visible";
+    document.getElementById("thank-you").style.paddingTop="100px";
+  }
 }
 </script>
 </html>
