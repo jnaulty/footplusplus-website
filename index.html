@@ -268,54 +268,7 @@
                 </div>
             </div>
         </section><!--end of timeline-->
-        <!--
-        <section id="numbers">
-            <div class="numbers-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="section-title">Biking Counter</h2>
-                            <p class="under-heading">Review our Numbers</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="num-data block-inline">
-                                    <i class="fa fa-flag fa-5x"></i>
-                                    <div class="counter">34,653</div>
-                                    <p>Tours Completed</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="num-data block-inline">
-                                    <i class="fa fa-database fa-5x"></i>
-                                    <div class="counter">354</div>
-                                    <p>Performer Cards</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="num-data block-inline">
-                                    <i class="fa fa-bicycle fa-5x"></i>
-                                    <div class="counter">64366</div>
-                                    <p>Included Bikes</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="num-data block-inline">
-                                    <i class="fa fa-life-ring fa-5x"></i>
-                                    <div class="counter">1452</div>
-                                    <p>Supports Tickets</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
+ 
         <section id="contact-us">
             <div class="contact-us">
                 <div class="container">
@@ -333,21 +286,21 @@
                             <div class="col-md-6 wow ">
                                 
                                     <div class="form-group">
-                                        <input type="text" placeholder="Your Name" class="form-control input-lg">
+                                        <input name="name" type="text" placeholder="Your Name" class="form-control input-lg" id="end-name">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" placeholder="Your E-Mail" class="form-control input-lg">
+                                        <input name="email" type="text" placeholder="Your E-Mail" class="form-control input-lg" id="end-email">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" placeholder="Subject" class="form-control input-lg">
+                                        <input id="end-subject" type="text" placeholder="Subject" class="form-control input-lg">
                                     </div>
                                 
                             </div>
                             <div class="col-md-6 wow ">
                                <div class="form-group">
-                                <textarea placeholder="Your Message" class="form-control "></textarea>
+                                <input name = "message" placeholder="Your Message" class="form-control " id="end-body"></input>
                                </div>
-                               <button class="btn btn-primary btn-block input-lg">SEND MESSAGE</button>
+                               <button type="submit" class="btn btn-primary btn-block input-lg" onclick="sendEmail()">SEND MESSAGE</button>
                             </div>
                         </div>
                         </form>
@@ -427,6 +380,11 @@
 
 </script>
 <script>
+function sendEmail() {
+  var subject = document.getElementById("end-subject");
+  var body = document.getElementById("end-body");
+  window.open('mailto:test@example.com?subject=subject&body=body');
+}
 function validateEmail(emailField){
       var reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
