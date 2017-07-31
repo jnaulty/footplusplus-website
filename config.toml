@@ -5,7 +5,6 @@ title = "Foot++"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 publishDir = "docs"
-thumbnail = "img/logo.png"
 
 [params]
 
@@ -25,6 +24,7 @@ thumbnail = "img/logo.png"
 # information about you and your website.
 name = "Foot++"
 description = "A cheap FES device for footdrop treatment"
+thumbnail = "img/logo.png"
 
 # The path must be relative to the static folder
 favicon = "img/favicon.ico"
