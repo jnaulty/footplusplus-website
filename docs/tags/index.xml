@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Foot&#43;&#43;</title>
-    <link>http://footplusplus.com/tags/</link>
+    <link>http://lambdaloop.com/footplusplus-website/tags/</link>
     <description>Recent content in Tags on Foot&#43;&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://footplusplus.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lambdaloop.com/footplusplus-website/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

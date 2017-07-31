@@ -1,4 +1,5 @@
-baseurl = "http://footplusplus.com/"
+# baseurl = "http://footplusplus.com/"
+baseurl = "http://lambdaloop.com/footplusplus-website"
 languageCode = "en-us"
 title = "Foot++"
 theme = "hugo-creative-theme"

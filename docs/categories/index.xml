@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Foot&#43;&#43;</title>
-    <link>http://footplusplus.com/categories/</link>
+    <link>http://lambdaloop.com/footplusplus-website/categories/</link>
     <description>Recent content in Categories on Foot&#43;&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://footplusplus.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lambdaloop.com/footplusplus-website/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
