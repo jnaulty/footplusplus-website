@@ -1,5 +1,5 @@
 # baseurl = "http://footplusplus.com/"
-baseurl = "http://lambdaloop.com/footplusplus-website"
+baseurl = "http://lambdaloop.com/footplusplus-website/"
 languageCode = "en-us"
 title = "Foot++"
 theme = "hugo-creative-theme"
@@ -60,22 +60,22 @@ description = "Foot++ is developing a cheap Functional Electrical Stimulation (F
 headline = "Team"
 
 [[params.team.list]]
-image = "pier_headshot.jpg"
+image = "img/pier_headshot.jpg"
 title = "Pierluigi Mantovani"
 description = "B.A. in Cognitive Science - UC Berkeley. He has spent his time after school doing neuroscience research at UCSF, focusing on electrical stimulation affects in the brain. Foot++ stems from his father's battle with MS and footdrop, in which he found that an affordable FES device was nonexistent."
 
 [[params.team.list]]
-image = "pierre_headshot.jpg"
+image = "img/pierre_headshot.jpg"
 title = "Pierre Karashchuk"
 description = "B.A. in Computer Science and Statistics - UC Berkeley. Currently a PhD candidate in Neuroscience at University of Washington. He is interested in basic and applied neuroscience."
 
 [[params.team.list]]
-image = "peggy_headshot.jpg"
+image = "img/peggy_headshot.jpg"
 title = "Peggy Wang"
 description = "Pursuing B.S. in Biomechanical Engineering - Stanford. Currently working on research projects in the Stanford CHARM and BDML labs. She is especially invested in Foot++ because she herself has a slight hearing impairment, so she is committed to bringing affordable, non-intrusive medical devices for people in need."
 
 [[params.team.list]]
-image = "jnaulty_headshot.jpg"
+image = "img/jnaulty_headshot.jpg"
 title = "John Naulty Jr."
 description = "B.A. in Cognitive Science - UC Berkeley. Cloud infrastructure engineer and hardware enthusiast. He is a member, and co-founder of NeurotechX, and enjoys being part of a community of curious researchers, engineers, and others interested in the intersection of neuroscience and technology."
 
@@ -103,7 +103,7 @@ phone = "661-993-0685"
 email = "info@footplusplus.com"
 
 # Google Maps section
-[params.location]
-latitude  = "37.8700259"
-longitude = "-122.2686634"
-maps_api_key = ""
+# [params.location]
+# latitude  = "37.8700259"
+# longitude = "-122.2686634"
+# maps_api_key = ""
