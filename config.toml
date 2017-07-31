@@ -61,22 +61,22 @@ description = "Foot++ is developing a cheap Functional Electrical Stimulation (F
 headline = "Team"
 
 [[params.team.list]]
-image = "img/pier_headshot.jpg"
+image = "img/pier_headshot_small.jpg"
 title = "Pierluigi Mantovani"
 description = "B.A. in Cognitive Science - UC Berkeley. He has spent his time after school doing neuroscience research at UCSF, focusing on electrical stimulation affects in the brain. Foot++ stems from his father's battle with MS and footdrop, in which he found that an affordable FES device was nonexistent."
 
 [[params.team.list]]
-image = "img/pierre_headshot.jpg"
+image = "img/pierre_headshot_small.jpg"
 title = "Pierre Karashchuk"
 description = "B.A. in Computer Science and Statistics - UC Berkeley. Currently a PhD candidate in Neuroscience at University of Washington. He is interested in basic and applied neuroscience."
 
 [[params.team.list]]
-image = "img/peggy_headshot.jpg"
+image = "img/peggy_headshot_small.jpg"
 title = "Peggy Wang"
 description = "Pursuing B.S. in Biomechanical Engineering - Stanford. Currently working on research projects at [Stanford BDML](http://bdml.stanford.edu/). She is especially invested in Foot++ because she herself has a slight hearing impairment, so she is committed to bringing affordable, non-intrusive medical devices for people in need."
 
 [[params.team.list]]
-image = "img/jnaulty_headshot.jpg"
+image = "img/jnaulty_headshot_small.jpg"
 title = "John Naulty Jr."
 description = "B.A. in Cognitive Science - UC Berkeley. Cloud infrastructure engineer and hardware enthusiast. He is a member, and co-founder of NeurotechX, and enjoys being part of a community of curious researchers, engineers, and others interested in the intersection of neuroscience and technology."
 
