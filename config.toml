@@ -1,0 +1,108 @@
+baseurl = "http://footplusplus.com/"
+languageCode = "en-us"
+title = "Foot++"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+publishDir = "docs"
+
+[params]
+
+# You can use Markdown syntax for urls [text](//url.to/source) for
+# most longer texts.
+
+# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+# for more icons. The icons are represented by their corresponding
+# CSS class.
+
+# All projects of the portfolio are defined in their own files.
+# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+# folder into the 'data' directory at the root of this Hugo site.
+# For more information take a look at the README.
+
+# To provide some metadata for search engines feel free to add some
+# information about you and your website.
+name = "Foot++"
+description = "A cheap FES device for footdrop treatment"
+
+# The path must be relative to the static folder
+favicon = "../img/favicon.ico"
+
+
+# Navigation
+[params.navigation]
+brand = "Foot++"
+
+[params.navigation.links]
+about     = "About"
+# services  = "Services"
+# portfolio = "Portfolio"
+contact   = "Contact"
+
+
+# Hero section
+[params.hero]
+# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+slogan     = "Footdrop treatment for everyone"
+subtitle   = "Bringing freedom of mobility to those who previously could not afford it."
+buttonText = "Find out more"
+
+
+# About section
+[params.about]
+headline    = "A cheap FES device for footdrop treatment"
+description = "Foot++ is developing a cheap Functional Electrical Stimulation (FES) device for treatment of footdrop (PENDING FDA 510K APPROVAL). We set out to create an accessible, affordable, and customizable version of an FES device for footdrop as an alternative to the extremely expensive devices available on the market right now."
+# buttonText  = "Get started!"
+
+
+# Team section
+[params.team]
+headline = "Team"
+
+[[params.team.list]]
+image = "pier_headshot.jpg"
+title = "Pierluigi Mantovani"
+description = "B.A. in Cognitive Science - UC Berkeley. He has spent his time after school doing neuroscience research at UCSF, focusing on electrical stimulation affects in the brain. Foot++ stems from his father's battle with MS and footdrop, in which he found that an affordable FES device was nonexistent."
+
+[[params.team.list]]
+image = "pierre_headshot.jpg"
+title = "Pierre Karashchuk"
+description = "B.A. in Computer Science and Statistics - UC Berkeley. Currently a PhD candidate in Neuroscience at University of Washington. He is interested in basic and applied neuroscience."
+
+[[params.team.list]]
+image = "peggy_headshot.jpg"
+title = "Peggy Wang"
+description = "Pursuing B.S. in Biomechanical Engineering - Stanford. Currently working on research projects in the Stanford CHARM and BDML labs. She is especially invested in Foot++ because she herself has a slight hearing impairment, so she is committed to bringing affordable, non-intrusive medical devices for people in need."
+
+[[params.team.list]]
+image = "jnaulty_headshot.jpg"
+title = "John Naulty Jr."
+description = "B.A. in Cognitive Science - UC Berkeley. Cloud infrastructure engineer and hardware enthusiast. He is a member, and co-founder of NeurotechX, and enjoys being part of a community of curious researchers, engineers, and others interested in the intersection of neuroscience and technology."
+
+
+# Portfolio modals
+# [params.portfolio.modal]
+# client = "Client"
+# date = "Date"
+# category = "Category"
+# buttonText = "Close"
+
+# Aside section
+# [params.aside]
+# 	headline = "Get the Creative Theme for Hugo"
+
+# 	[params.aside.button]
+# 		text = "Download now"
+# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+# Contact section
+[params.contact]
+headline = "Let's Get In Touch!"
+description = "Interested in testing out our device? Give us a call or send us an email and we will get back to you as soon as possible!"
+phone = "661-993-0685"
+email = "info@footplusplus.com"
+
+# Google Maps section
+[params.location]
+latitude  = "37.8700259"
+longitude = "-122.2686634"
+maps_api_key = ""
