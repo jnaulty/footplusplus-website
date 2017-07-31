@@ -101,6 +101,11 @@ aside {
     color: #4F899C;
 }
 
+.navbar-default .logo-img {
+    max-height: 30px;
+    margin-top: -5px;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;

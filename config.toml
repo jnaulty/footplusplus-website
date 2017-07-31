@@ -26,12 +26,13 @@ name = "Foot++"
 description = "A cheap FES device for footdrop treatment"
 
 # The path must be relative to the static folder
-favicon = "../img/favicon.ico"
+favicon = "img/favicon.ico"
 
 
 # Navigation
 [params.navigation]
 brand = "Foot++"
+logo = "img/logo.png"
 
 [params.navigation.links]
 about     = "About"
@@ -72,7 +73,7 @@ description = "B.A. in Computer Science and Statistics - UC Berkeley. Currently 
 [[params.team.list]]
 image = "img/peggy_headshot.jpg"
 title = "Peggy Wang"
-description = "Pursuing B.S. in Biomechanical Engineering - Stanford. Currently working on research projects in the Stanford CHARM and BDML labs. She is especially invested in Foot++ because she herself has a slight hearing impairment, so she is committed to bringing affordable, non-intrusive medical devices for people in need."
+description = "Pursuing B.S. in Biomechanical Engineering - Stanford. Currently working on research projects at [Stanford BDML](http://bdml.stanford.edu/). She is especially invested in Foot++ because she herself has a slight hearing impairment, so she is committed to bringing affordable, non-intrusive medical devices for people in need."
 
 [[params.team.list]]
 image = "img/jnaulty_headshot.jpg"

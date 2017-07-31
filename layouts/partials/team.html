@@ -19,7 +19,7 @@
                   <img class="headshot" src="{{.image}}" />
                     <h3>{{ .title }}</h3>
                     {{ with .description }}
-                        <p class="text-muted">{{ . }}</p>
+                        <p class="text-muted">{{ . | markdownify }}</p>
                     {{ end }}
                 </div>
             </div>
