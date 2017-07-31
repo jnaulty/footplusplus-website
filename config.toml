@@ -24,7 +24,7 @@ publishDir = "docs"
 # information about you and your website.
 name = "Foot++"
 description = "A cheap FES device for footdrop treatment"
-thumbnail = "img/logo.png"
+thumbnail = "img/header.jpg"
 
 # The path must be relative to the static folder
 favicon = "img/favicon.ico"
