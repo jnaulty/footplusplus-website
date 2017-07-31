@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with .Site.Params.thumbnail }}<meta name="og:image" content="{{ . }}">{{ end }}
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 

@@ -5,6 +5,7 @@ title = "Foot++"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 publishDir = "docs"
+thumbnail = "img/logo.png"
 
 [params]
 
