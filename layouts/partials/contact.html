@@ -41,31 +41,9 @@
             {{ if .Site.Params.contact.mailing }}
                 <div class="col-lg-8 col-lg-offset-2 text-center">
 
-                  <script>
-                    function validateEmail(emailField){
-                    var reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                        if (reg.test(emailField) == false) 
-                        {
-                        alert('Invalid Email Address');
-                        return false;
-                        }
-                        return true;
-                        }
-
-                    function showMailingThanks() {
-                    
-                    var email_valid = document.forms["gform"]["email"].value;
-                    var result = validateEmail(email_valid);
-                    window.location.assign("www.footplusplus.com");
-                    
-                    if (document.forms["gform"]["name"].value != "" && document.forms["gform"]["message"].value != "" && document.forms["gform"]["email"].value != "" && (result == true)) {
-                    document.getElementById("thank-you").style.visibility="visible";
-                    document.getElementById("thank-you").style.paddingTop="100px";
-                    }
-                    }
-                  </script>   
-
-                  <form role="form" class="header-form" action= "https://script.google.com/macros/s/AKfycbxJp1WIQWzf-YTN6zzXncURfVKeFB2ufX8i6iVWpNB1no9fEWI/exec" method="POST" id="gform" onsubmit="showMailingThanks()">
+                   <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+                   
+                  <form role="form" class="header-form" action= "https://script.google.com/macros/s/AKfycbxJp1WIQWzf-YTN6zzXncURfVKeFB2ufX8i6iVWpNB1no9fEWI/exec" method="POST" id="gform">
                     <h2>Sign up for our mailing list.</h2>
                     <div class="form-group">
                       <input id="name" name="name" type="text" placeholder="First Name" class="form-control input-3x">
@@ -80,7 +58,7 @@
                       <button type="submit" class="btn btn-primary btn-3x">Sign Up <span> <i class="fa fa-angle-double-right"></i> </span></button>
                     </div>
                   </form>
-                  <h2 id="thank-you" style="visibility:hidden"> Thanks! You're signed up. </h2>
+                  <h2 id="thank-you" style="display: none"> Thanks! You're signed up. </h2>
                 </div>
 
 {{ end }}
