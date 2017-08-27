@@ -300,6 +300,12 @@ header .header-content .header-content-inner p {
     /* border: solid 1px #4F899C; */
 }
 
+.form-group {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .portfolio-box {
     display: block;
     position: relative;

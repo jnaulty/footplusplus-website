@@ -1,9 +1,9 @@
 baseurl = "http://footplusplus.com/"
-b# baseurl = "http://lambdaloop.com/footplusplus-website/"
+# baseurl = "http://lambdaloop.com/footplusplus-website/"
 languageCode = "en-us"
 title = "Foot++"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-99584563-1"
 publishDir = "docs"
 
 [params]
@@ -52,8 +52,8 @@ buttonText = "Find out more"
 
 # About section
 [params.about]
-headline    = "A cheap FES device for footdrop treatment"
-description = "Foot++ is developing a cheap Functional Electrical Stimulation (FES) device for treatment of footdrop (PENDING FDA 510K APPROVAL). We set out to create an accessible, affordable, and customizable version of an FES device for footdrop as an alternative to the extremely expensive devices available on the market right now."
+headline    = "An affordable FES device for footdrop treatment"
+description = "Foot++ is developing an affordable Functional Electrical Stimulation (FES) device for treatment of footdrop (PENDING FDA 510K APPROVAL). We have created an accessible, affordable, and customizable FES device for footdrop as an alternative to the extremely expensive devices available on the market today."
 # buttonText  = "Get started!"
 
 
@@ -64,7 +64,7 @@ headline = "Team"
 [[params.team.list]]
 image = "img/pier_headshot_small.jpg"
 title = "Pierluigi Mantovani"
-description = "B.A. in Cognitive Science - UC Berkeley. He has spent his time after school doing neuroscience research at UCSF, focusing on electrical stimulation affects in the brain. Foot++ stems from his father's battle with MS and footdrop, in which he found that an affordable FES device was nonexistent."
+description = "B.A. in Cognitive Science - UC Berkeley. Since graduating, Pierluigi has been doing neuroscience research at UCSF, focusing on electrical stimulation effects on the brain. Foot++ stems from his father's battle with MS and footdrop, in which he found that an affordable FES device was nonexistent."
 
 [[params.team.list]]
 image = "img/pierre_headshot_small.jpg"
@@ -74,7 +74,7 @@ description = "B.A. in Computer Science and Statistics - UC Berkeley. Currently 
 [[params.team.list]]
 image = "img/peggy_headshot_small.jpg"
 title = "Peggy Wang"
-description = "Pursuing B.S. in Biomechanical Engineering - Stanford. Currently working on research projects at [Stanford BDML](http://bdml.stanford.edu/). She is especially invested in Foot++ because she herself has a slight hearing impairment, so she is committed to bringing affordable, non-intrusive medical devices for people in need."
+description = "Pursuing B.S. in Biomechanical Engineering - Stanford. Currently working on research projects at [Stanford BDML](http://bdml.stanford.edu/). She is especially invested in Foot++ because she herself has a slight hearing impairment, so she is committed to bringing affordable, non-intrusive medical devices to people in need."
 
 [[params.team.list]]
 image = "img/jnaulty_headshot_small.jpg"
@@ -100,10 +100,10 @@ description = "B.A. in Cognitive Science - UC Berkeley. Cloud infrastructure eng
 # Contact section
 [params.contact]
 headline = "Let's Get In Touch!"
-description = "Interested in testing out our device? Give us a call or send us an email and we will get back to you as soon as possible!"
-phone = "661-993-0685"
+description = "Interested in testing out our device? Send us an email and we will get back to you as soon as possible!"
+# phone = "661-993-0685"
 email = "info@footplusplus.com"
-
+mailing="yes"
 # Google Maps section
 # [params.location]
 # latitude  = "37.8700259"
