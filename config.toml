@@ -109,3 +109,23 @@ mailing="yes"
 # latitude  = "37.8700259"
 # longitude = "-122.2686634"
 # maps_api_key = ""
+
+# Social Media section
+[params.social]
+headline = "Social Media"
+
+[[params.social.list]]
+image = "facebook.jpg"
+link = "https://www.facebook.com/pg/FootPP"
+
+[[params.social.list]]
+image = "twitter.jpg"
+link = "https://twitter.com/footplusplus"
+
+[[params.social.list]]
+image = "instagram.jpg"
+link = "https://www.instagram.com/footplusplus/"
+
+[[params.social.list]]
+image = "linkedin.jpg"
+link = "https://www.linkedin.com/company/footplusplus"
