@@ -1,0 +1,68 @@
+{{ "<!-- CONTACT -->" | safeHTML }}
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                {{ with .Site.Params.contact.headline }}
+                    <h2 class="section-heading">{{ . }}</h2>
+                {{ end }}
+                {{ if and .Site.Params.contact.headline .Site.Params.contact.description }}
+                    <hr class="primary">
+                {{ end }}
+                {{ with .Site.Params.contact.description }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end }}
+            </div>
+            {{ if .Site.Params.contact.phone }}
+                <div class="
+                {{ if .Site.Params.contact.email }}
+                    col-lg-4
+                {{ else }}
+                    col-lg-8
+                {{ end }}
+                col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>{{ .Site.Params.contact.phone }}</p>
+                </div>
+            {{ end }}
+            {{ if .Site.Params.contact.email }}
+                <div class="
+                {{ if .Site.Params.contact.phone }}
+                    col-lg-4
+                {{ else }}
+                    col-lg-8 col-lg-offset-2
+                {{ end }}
+                 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+                </div>
+                {{ end }}
+
+            {{ if .Site.Params.contact.mailing }}
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+
+                   <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+                   
+                  <form role="form" class="header-form" action= "https://script.google.com/macros/s/AKfycbxJp1WIQWzf-YTN6zzXncURfVKeFB2ufX8i6iVWpNB1no9fEWI/exec" method="POST" id="gform">
+                    <h2>Sign up for our mailing list.</h2>
+                    <div class="form-group">
+                      <input id="name" name="name" type="text" placeholder="First Name" class="form-control input-3x">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="message" placeholder="Last Name" class="form-control input-3x">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" name="email" placeholder="E- Mail Address" class="form-control input-3x">
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-primary btn-3x">Sign Up <span> <i class="fa fa-angle-double-right"></i> </span></button>
+                    </div>
+                  </form>
+                  <h2 id="thank-you" style="display: none"> Thanks! You're signed up. </h2>
+                </div>
+
+{{ end }}
+                
+        </div>
+    </div>
+</section>
