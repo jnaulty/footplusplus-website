@@ -109,3 +109,39 @@ mailing="yes"
 # latitude  = "37.8700259"
 # longitude = "-122.2686634"
 # maps_api_key = ""
+
+# Social Media section
+[params.social]
+headline = "Follow Us on Social Media!"
+
+[[params.social.list]]
+link = "https://www.facebook.com/pg/FootPP"
+
+[[params.social.list]]
+link = "https://twitter.com/footplusplus"
+
+[[params.social.list]]
+link = "https://www.instagram.com/footplusplus/"
+
+[[params.social.list]]
+link = "https://www.linkedin.com/company/footplusplus"
+
+# FAQ section
+[params.faq]
+headline = "Frequently Asked Questions"
+
+[[params.faq.list]]
+question = "Q: I want to test out your device. What should I do?"
+answer = "A: Email us at [info@footplusplus.com](mailto:info@footplusplus.com) and someone from our team will contact you to see if we can set up a time and place. Also, please sign up for our mailing list and social media to keep up to date on our progress!"
+
+[[params.faq.list]]
+question = "Q: I really want to buy your device. When would this be available?"
+answer = "A: At the moment, our device is still being developed. We also need to get FDA approval, which ensures that it’s medically approved and recommended for treatment, and that would take some time. However, we will love for you to support us on Indiegogo to help us develop our device! If you are sure you want to order a device once it comes out, please send us an email at [info@footplusplus.com](mailto:info@footplusplus.com) and we will be sure to notify you once we are ready to sell our product. Please sign up for our mailing list and social media to keep up to date on our progress!"
+
+[[params.faq.list]]
+question = "Q: How much would Foot++ improve my walking?"
+answer = "A: Everybody has different reactions to stimulation and symptoms, so it would depend on your personal characteristics. However, [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3919695/) have shown a significant increase of walking speed and comfort."
+
+[[params.faq.list]]
+question = "Q: Is Foot++ right for me?"
+answer = "A: Since our device uses functional electrical stimulation (FES) on large muscle groups in the leg, a variety of neuromuscular diseases such as stroke, multiple sclerosis, Lumbar Degenerative Disease, muscular dystrophy, and others that cause foot drop could all be potentially tested using Foot++. Please contact us at [info@footplusplus.com](mailto:info@footplusplus.com) explaining your specific case and someone from our team will get back to you to set up a date and time to test!"
