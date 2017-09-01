@@ -15,19 +15,7 @@
             {{ range .Site.Params.social.list }}
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                  <p><a href="https://www.facebook.com/FootPP/"></a></p>
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                  <p><a href="https://twitter.com/footplusplus"></a></p>
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                  <p><a href="https://www.instagram.com/footplusplus/"></a></p>
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  <p><a href=" https://www.linkedin.com/company/footplusplus"></a></p>
-
-                    <h3>{{ .title }}</h3>
-                    {{ with .description }}
-                        <p class="text-muted">{{ . }}</p>
-                    {{ end }}
+                  <a href="{{ .link }}"><i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i></a>
                 </div>
             </div>
             {{ end }}

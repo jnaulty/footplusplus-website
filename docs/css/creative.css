@@ -25,6 +25,7 @@ hr.light {
 }
 
 a {
+  /* change theme color */
     color: #4F899C;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
