@@ -115,15 +115,19 @@ mailing="yes"
 headline = "Follow Us on Social Media!"
 
 [[params.social.list]]
+icon = "fa-facebook"
 link = "https://www.facebook.com/pg/FootPP"
 
 [[params.social.list]]
+icon = "fa-twitter"
 link = "https://twitter.com/footplusplus"
 
 [[params.social.list]]
+icon = "fa-instagram"
 link = "https://www.instagram.com/footplusplus/"
 
 [[params.social.list]]
+icon = "fa-linkedin"
 link = "https://www.linkedin.com/company/footplusplus"
 
 # FAQ section
