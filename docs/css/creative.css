@@ -193,7 +193,7 @@ header {
     text-align: center;
     color: #fff;
     background-image:  linear-gradient(
-        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8),
         rgba(0, 0, 0, 0.4)
     ),
     url(../img/header.jpg);
