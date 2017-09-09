@@ -53,7 +53,7 @@ buttonText = "Find out more"
 # About section
 [params.about]
 headline    = "An affordable FES device for footdrop treatment"
-description = "Foot++ is developing an affordable Functional Electrical Stimulation (FES) device for treatment of footdrop (PENDING FDA 510K APPROVAL). We have created an accessible, affordable, and customizable FES device for footdrop as an alternative to the extremely expensive devices available on the market today."
+description = "Foot++ is developing an affordable Functional Electrical Stimulation (FES) device for treatment of footdrop (PENDING FDA 510K APPROVAL). We have created an accessible, affordable, and customizable FES device for footdrop as an alternative to the extremely expensive devices available on the market today. A brief demo of our device is shown below."
 # buttonText  = "Get started!"
 
 
